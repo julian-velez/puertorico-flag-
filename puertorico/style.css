@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+  }
+  
+  .puerto-rico-flag {
+    position: relative;
+    width: 300px;
+    height: 180px;
+    overflow: hidden;
+  }
+  
+  .stripe {
+    height: 20%;
+    width: 100%;
+  }
+  
+  .stripe.red {
+    background-color: #EF0000;
+  }
+  
+  .stripe.white {
+    background-color: #ffffff;
+  }
+  
+  .triangle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #0042FF;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .star {
+    width: 60px;
+    height: 60px;
+    background: white;
+    clip-path: polygon(
+      50% 0%, 
+      61% 35%, 
+      98% 35%, 
+      68% 57%, 
+      79% 91%, 
+      50% 70%, 
+      21% 91%, 
+      32% 57%, 
+      2% 35%, 
+      39% 35%
+    );
+  }
+  
